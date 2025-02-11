@@ -1,0 +1,191 @@
+.logo_container {
+  width: 267px;
+}
+
+.logo_container img {
+  width: 110px;
+}
+
+.display-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 80px;
+}
+
+.middle-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+  justify-content: center;
+}
+
+.middle-container a {
+  text-decoration: none;
+  color: #b0b0b0;
+}
+
+.airbnb-home-link {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: end;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Bottom header container */
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-header-container {
+  border: 1px solid lightgray;
+  width: 850px;
+  height: 64px;
+  border-radius: 50px;
+  padding: 0 7px 0 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-header-container p {
+  font-size: 12px;
+  font: 600;
+  color: #494949;
+}
+
+.search-where input {
+  outline: none;
+  border: none;
+}
+
+.search-button {
+  background-color: transparent;
+  border: blue;
+  color: #b0b0b0;
+}
+
+.search-input,
+.checkin-date,
+.checkout-date,
+.guest-counter {
+  width: 25%;
+}
+
+.search-icon-container {
+  background-color: #ff385c;
+  border-radius: 999px;
+  padding: 14px;
+  width: 54px;
+
+  color: #ffff;
+}
+
+.search-icon {
+  color: #ffff;
+}
+
+/* Date picker styles */
+.date-picker-styles {
+  border: none;
+  color: #717171;
+}
+
+.date-picker-styles:focus {
+  outline: none;
+}
+
+/* Guest Popup */
+
+.guest-selector {
+  display: flex;
+  position: absolute;
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.guest-button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #ff385c;
+  border: none;
+  color: #ffff;
+}
+
+.guest-input {
+  outline: none;
+  border: none;
+  width: 25px;
+  margin-left: 15px;
+}
+
+.guest-input:focus {
+  outline: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  border-radius: 20px;
+  display: none;
+  margin: 2px 15px 20px -120px;
+  padding: 20px 0;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content span:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

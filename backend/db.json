@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Anjunet Kekana",
+      "email": "kekana.anjunet@gmail.com",
+      "phone": "0823580369",
+      "password": "2456"
+    },
+    {
+      "id": "2",
+      "name": "Petrus Khumalo",
+      "email": "tp@gmail.com",
+      "phone": "0823584865"
+    },
+    {
+      "id": "3",
+      "name": "Anjunet Kekana",
+      "email": "real@gmail.com",
+      "password": "2456"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2025-01-14",
+      "endDate": "2025-01-19",
+      "userId": "1",
+      "id": "e69b"
+    },
+    {
+      "listingId": "2",
+      "startDate": "2025-01-19",
+      "endDate": "2025-01-24",
+      "userId": "2",
+      "id": "7WD85"
+    }
+  ],
+  "listings": [
+    {
+      "id": "289",
+      "title": "Discover the beauty of the African savanna",
+      "img": "https://a0.muscache.com/im/pictures/a003c1a8-0182-4b39-9e48-c6e0be6cbe11.jpg?im_w=720&im_format=avif",
+      "description": "2 guests · 1 bedroom · 1 bed · 1 private bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": 2029,
+      "address": "Dinokeng",
+      "town": "Hammanskraal",
+      "street": "Dinokeng Crescent",
+      "price": "R 3,200 / night",
+      "sq-ft": 4.2,
+      "email": "reservations@dinokeng.co.za",
+      "userId": "2"
+    },
+    {
+      "id": "899",
+      "title": "Entire home in Randburg, South Africa",
+      "img": "https://a0.muscache.com/im/pictures/airflow/Hosting-719933856502762445/original/9162d55d-fd55-448f-9f97-23472fed24c6.jpg?im_w=720&im_format=avif",
+      "description": "6 guests · 3 bedroom · 3 bed · 3 private bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": 2029,
+      "address": "Dinokeng",
+      "town": "Randburg",
+      "street": "Dinokeng Crescent",
+      "price": "R 8,632 / night",
+      "sq-ft": 4.2,
+      "email": "reservations@dinokeng.co.za",
+      "userId": "3"
+    },
+    {
+      "id": "900",
+      "title": "Enjoy Nature in Hammanskraal, South Africa",
+      "img": "https://a0.muscache.com/im/pictures/miso/Hosting-3985533/original/7283e131-70ff-44e2-a841-6ca5894a3e61.jpeg?im_w=720&im_format=avif",
+      "description": "8 guests · 4 bedroom · 4 bed · 3 private bath",
+      "bath_num": 1,
+      "bed_num": 4,
+      "zip": 2029,
+      "address": "Game reserve",
+      "town": "Hammanskraal",
+      "street": "Game street",
+      "price": "R 11,689 / night",
+      "sq-ft": 4.2,
+      "email": "reservations@gamereserve.co.za",
+      "userId": "4"
+    },
+    {
+      "id": "901",
+      "title": "Enjoy Nature in Hammanskraal, South Africa",
+      "img": "https://a0.muscache.com/im/pictures/miso/Hosting-3985533/original/7283e131-70ff-44e2-a841-6ca5894a3e61.jpeg?im_w=720&im_format=avif",
+      "description": "8 guests · 4 bedroom · 4 bed · 3 private bath",
+      "bath_num": 1,
+      "bed_num": 4,
+      "zip": 2029,
+      "address": "Game reserve",
+      "town": "Hammanskraal",
+      "street": "Game street",
+      "price": "R 11,689 / night",
+      "sq-ft": 4.2,
+      "email": "reservations@gamereserve.co.za",
+      "userId": "5"
+    }
+  ]
+}

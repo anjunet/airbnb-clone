@@ -1,0 +1,39 @@
+# GET ALL USERS
+GET http://localhost:3000/users
+###
+
+# GET SINGLE USER
+GET http://localhost:3000/users/2
+###
+# REGISTER A USER
+# Register a user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "id": "4",
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "password": "securepassword"
+}
+
+###
+# GET ALL BOOKINGS
+GET http://localhost:3000/bookings/
+###
+# GET ALL BOOKINGS FOR A USER
+GET http://localhost:3000/users/1/bookings 
+
+###
+GET http://localhost:3000/listings
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "id": "9",
+    "name": "Anjunet Kekana",
+    "email": "real@gmail.com",
+    "password": "2456"
+}
