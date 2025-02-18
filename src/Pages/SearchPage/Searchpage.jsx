@@ -1,5 +1,5 @@
 import React from "react";
-import "./Searchpage.CSS";
+import "./Searchpage.css";
 import { Button } from "@mui/material";
 import SearchResult from "../../Components/SearchResult/SearchResult";
 
